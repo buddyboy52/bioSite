@@ -33,3 +33,27 @@ table {
     margin: 0;
 
 }
+
+#navbar {
+
+    background-color: #990037;
+    overflow: hidden;
+
+}
+
+#navbar a{
+
+    color: black;
+    display: block;
+    float: left;
+    padding: 14px 16px;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+#navbar a:hover{
+
+    text-decoration: underline;
+
+}
