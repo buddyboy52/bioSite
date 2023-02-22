@@ -28,6 +28,19 @@ body {
 
 }
 
+figure{
+
+    text-align: center;
+
+}
+
+img {
+
+    height: 300px;
+    width: 300px;
+
+}
+
 table {
 
     margin: 0;
@@ -37,6 +50,12 @@ table {
 ul{
 
     list-style: none;
+
+}
+
+#card-container{
+
+    margin: 2% 5% 100px 5%;
 
 }
 
@@ -64,11 +83,21 @@ ul{
 
 }
 
+#self-image h3{
+
+    margin: 10px 60px 10px 60px;
+    text-align: center;
+    font-weight: 400;
+
+}
+
 .card{
 
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    background-color:  #8831FA;
+    box-shadow: 0 4px 8px black;
+    padding-left: 30px;
     transition: 0.3s;
-    width: 50%;
+    width: 40%;
 
 }
 
