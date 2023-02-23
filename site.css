@@ -34,10 +34,32 @@ figure{
 
 }
 
+figure p{
+
+    font-weight: 1000;
+
+}
+
+footer{
+
+    background-color: #8831FA;
+    float: right;
+    padding-right: 20px;
+    position: relative;
+    width: 100%;
+
+}
+
+footer p{
+
+    text-align: right;
+
+}
+
 img {
 
-    height: 300px;
-    width: 300px;
+    height: 400px;
+    width: 400px;
 
 }
 
@@ -53,7 +75,7 @@ ul{
 
 }
 
-#card-container{
+#hours-card-container{
 
     margin: 2% 5% 100px 5%;
 
@@ -96,12 +118,13 @@ ul{
     background-color:  #8831FA;
     box-shadow: 0 4px 8px black;
     padding-left: 30px;
+    padding-right: 30px;
     transition: 0.3s;
     width: 40%;
 
 }
 
-.card-content{
+.hour-card-content{
 
     font-size: 18px;
     padding: 2px 16px;
@@ -109,7 +132,7 @@ ul{
 
 }
 
-.card-title{
+.hours-card-title{
 
     color:black;
     font-size: 2em;
@@ -123,3 +146,35 @@ ul{
     box-shadow: 0 16px 32px 0 rgba(0,0,0,0.2);
 
 }
+
+
+
+.hobbie-images-row{
+
+    display: flex;
+    column-gap: 100px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.logo{
+
+    float: right;
+    padding-right: 50px;
+    height: 50px;
+    width: 150px;
+
+}
+
+.team{
+
+    display: block;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+}
+
