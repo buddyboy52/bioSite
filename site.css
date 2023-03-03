@@ -9,7 +9,7 @@ h1 {
     font-family: 'Poiret One', cursive;
     font-size: 120px;
     text-align: center;
-    background-color: #8831FA;
+    background-color: #b994e8;
 
 
 }
@@ -21,9 +21,16 @@ h2 {
 
 }
 
+h3{
+
+    padding-left: 30%;
+    padding-right: 30%;
+
+}
+
 body {
 
-    background-color: #990037;
+    background-color: #e4e4e4;
     margin: 0;
 
 }
@@ -42,7 +49,7 @@ figure p{
 
 footer{
 
-    background-color: #8831FA;
+    background-color: #b994e8;
     float: right;
     padding-right: 20px;
     position: relative;
@@ -56,13 +63,6 @@ footer p{
 
 }
 
-img {
-
-    height: 400px;
-    width: 400px;
-
-}
-
 table {
 
     margin: 0;
@@ -71,19 +71,25 @@ table {
 
 ul{
 
-    list-style: none;
+    display: inline-block;
+    list-style: square;
+    text-align: left;
 
 }
 
-#hours-card-container{
+#cards-info{
 
-    margin: 2% 5% 100px 5%;
+    column-gap: 20px;
+    display: flex;
+    text-align: center;
 
 }
 
 #navbar {
 
-    background-color: #990037;
+    background-color: #b994e8;
+    border-bottom: 10px solid #a574e5;;
+    border-top: 10px solid #a574e5;
     overflow: hidden;
 
 }
@@ -115,29 +121,31 @@ ul{
 
 .card{
 
-    background-color:  #8831FA;
-    box-shadow: 0 4px 8px black;
-    padding-left: 30px;
-    padding-right: 30px;
+    background-color: #b994e8;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin-top: 10px;
     transition: 0.3s;
-    width: 40%;
+    width: 100%;
+
 
 }
 
-.hour-card-content{
+.card-title{
 
-    font-size: 18px;
-    padding: 2px 16px;
     text-align: center;
 
 }
 
-.hours-card-title{
+.column{
 
-    color:black;
-    font-size: 2em;
-    font-weight: 400;
-    text-align: center;
+    flex: 50%;
+
+}
+
+.column img{
+
+    width: 400px;
+    height: 400px;
 
 }
 
@@ -146,8 +154,6 @@ ul{
     box-shadow: 0 16px 32px 0 rgba(0,0,0,0.2);
 
 }
-
-
 
 .hobbie-images-row{
 
@@ -168,6 +174,20 @@ ul{
 
 }
 
+.school-pic img{
+
+    width: 600px;
+    height: 200px;
+
+}
+
+.self img{
+
+    width: 400px;
+    height: 400px;
+    
+}
+
 .team{
 
     display: block;
@@ -175,6 +195,13 @@ ul{
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+
+}
+
+.toby-grad img{
+
+    width: 400px;
+    height: 500px;
 
 }
 
